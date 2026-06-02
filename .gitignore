@@ -1,0 +1,116 @@
+## Build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+out/
+
+## Visual Studio / Visual Studio Code
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.DotSettings.user
+
+## ASP.NET / Entity Framework
+ScaffoldingReadMe.txt
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+## Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+
+## Publish
+publish/
+*.pubxml
+*.publishproj
+
+## User secrets y configuración local
+secrets.json
+appsettings.*.local.json
+*.env
+*.env.*
+!.env.example
+
+## OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Misc
+*.swp
+*~
+*.bak
+*.orig

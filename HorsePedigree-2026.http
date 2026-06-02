@@ -1,0 +1,6 @@
+@HorsePedigree_2026_HostAddress = http://localhost:5203
+
+GET {{HorsePedigree_2026_HostAddress}}/api/v1/health
+Accept: application/json
+
+###
